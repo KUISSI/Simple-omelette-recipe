@@ -1,0 +1,110 @@
+
+
+
+body{
+    display: flex;
+
+    justify-content: center;
+   
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+
+.contener {
+    display: flex;
+    flex-direction: column;
+
+
+
+    background-color: hsl(0, 0%, 100%);
+    width : 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-left: solid hsl(30, 54%, 90%) 400px;
+    border-right: solid hsl(30, 54%, 90%) 400px;
+    border-top: solid hsl(30, 54%, 90%) 100px;
+    border-bottom: solid hsl(30, 54%, 90%) 100px;
+}
+
+
+img {
+
+    align-items: center;
+    width : 100%;
+    height: 100%;
+    margin-right: 100px;
+    border-radius: 40px;
+}
+
+.ingredients, .instructions {
+border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+h1{
+    font-family: "Young Serif";
+    font-size: 5.0rem;
+
+}
+
+h2{
+    font-family: "Young Serif";
+    color:hsl(14, 45%, 36%);
+    font-size: 3.0rem;
+
+}
+
+h3{
+    font-family: "Outfit";
+    color: hsl(332, 51%, 32%);
+    font-size: 2.5rem;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p,.span1, ul, ol {
+    font-family: "Young Serif";
+    font-size: 1.8rem;
+    color:hsl(30, 10%, 34%);
+}
+
+.span1 {
+    width : 50%;
+    height: 100%;
+}
+
+.span2 {
+    font-family: "Young Serif";
+    font-size: 1.8rem;
+    color: hsl(14, 45%, 36%);
+
+    width : 50%;
+    height: 100%;
+}
+
+.nutrivalues{
+    width: 100%;
+}
+
+.calories, .carbs, .protein, .fat {
+    width: 100%;
+    display :flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding-left: 40px;
+
+}
+
+
+
+.calories, .carbs, .protein {
+border-bottom: 1px solid hsl(30, 18%, 87%);
+}
